@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --color-empresa: indianred;
+}
+
+/*Estilos para el head*/
+.logo{
+    width: 10rem;
+    border-radius: 5rem;
+    -webkit-box-shadow: 8px 7px 12px 0px #B59C9C; 
+    box-shadow: 8px 7px 12px 0px #B59C9C;
+}
+
+.nombre-empresa{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5rem;
+}
+
+header{
+    display: flex;
+    background-color: indianred;
+}
+
+nav{
+    margin-top: 1.5rem;
+}
+
+.btn-menu{
+    padding: .8rem ;
+    margin-right: 0.5rem;
+    background-color: gray;
+    text-decoration: none;
+
+}
+
+.section-img{
+    width: 30%;
+}
+
+.contenido{
+    display: flex;
+}
+
+section {
+    border: 1px solid lightgray;
+}
+
+footer{
+    background-color: indianred;
+    padding: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
